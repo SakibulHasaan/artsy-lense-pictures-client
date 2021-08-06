@@ -14,7 +14,6 @@ const Header = () => {
     return (
         <div className="w-full">
             <Carousel autoplay>
-
                 <div>
                     <div className="flex flex-col md:flex-row justify-between w-full h-96 md:h-72 lg:h-96 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
 
@@ -24,7 +23,7 @@ const Header = () => {
                         </div>
 
                         <div className="w-full md:w-1/2 md:h-full">
-                            <img className="object-contain w-full" src="https://www.keeeper.com/wp-content/uploads/2019/05/Headerbild-Kidsparty-1200x800.jpg" alt="" />
+                            <img className="object-cover w-full h-full" src="https://www.keeeper.com/wp-content/uploads/2019/05/Headerbild-Kidsparty-1200x800.jpg" alt="" />
                         </div>
 
                     </div>
@@ -39,7 +38,7 @@ const Header = () => {
                         </div>
 
                         <div className="w-full md:w-1/2 md:h-full">
-                            <img className="object-contain w-full" src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
+                            <img className="object-cover w-full" src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
                         </div>
 
                     </div>
@@ -54,7 +53,7 @@ const Header = () => {
                         </div>
 
                         <div className="w-full md:w-1/2 md:h-full">
-                            <img className="object-contain w-full" src="https://www.achievers.com/blog/wp-content/uploads/2019/11/11_05_19.jpg" alt="" />
+                            <img className="object-cover w-full" src="https://www.achievers.com/blog/wp-content/uploads/2019/11/11_05_19.jpg" alt="" />
                         </div>
 
                     </div>
