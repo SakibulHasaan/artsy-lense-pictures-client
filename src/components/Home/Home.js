@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
+import Service from '../Service/Service';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Artsy Lens Picture</h1>
-            <h2>A Photography Company</h2>
+        <div className="w-full">
+            <Navbar />
+            <Header/>
+            <Service/>
         </div>
     );
 };
