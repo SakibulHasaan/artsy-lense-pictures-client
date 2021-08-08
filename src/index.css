@@ -5,11 +5,12 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Atkinson Hyperlegible', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container{
-  @apply md:px-24 md:mx-auto;
-}
+/* .container{
+  @apply md:px-24;
+} */
