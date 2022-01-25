@@ -16,12 +16,12 @@ const SingleService = ({ service }) => {
 
             <div className="mt-5">
             <Link to={`/checkout/${service._id}`}>
-                    <button class="bg-transparent hover:bg-blue-400 text-blue-600 font-semibold hover:text-white  py-2 px-5 border border-blue-500 hover:border-transparent rounded-xs">
-                    Buy Now
+                    <button className="bg-transparent hover:bg-blue-400 text-blue-600 font-semibold hover:text-white  py-2 px-5 border border-blue-500 hover:border-transparent rounded-xs">
+                    Book Now
                 </button>
                 </Link>
                 <Link to={`/view/${service._id}`}>
-                    <button class="bg-transparent hover:bg-blue-400 ml-3 text-blue-600 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded-xs">
+                    <button className="bg-transparent hover:bg-blue-400 ml-3 text-blue-600 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded-xs">
                         View More
                     </button>
                 </Link>

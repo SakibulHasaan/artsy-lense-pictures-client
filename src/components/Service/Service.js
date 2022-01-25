@@ -4,7 +4,7 @@ import { Skeleton } from 'antd';
 import { fetchServices } from '../../actions/services';
 
 const Service = () => {
-    const [services, setServices] = useState();
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
         (async function () {

@@ -3,8 +3,9 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { fetchServices } from '../../actions/services';
 const CheckoutService = () => {
+    // @ts-ignore
     const { id } = useParams();
-    const [services, setServices] = useState();
+    const [services, setServices] = useState([]);
     useEffect(() => {
         (async function () {
             let ser = await fetchServices()
@@ -23,7 +24,7 @@ const CheckoutService = () => {
                     <h1 className="text-bold text-2xl">{title}</h1>
                     <p className="text-semibold text-lg">{price}</p>
                     <Link to={`/checkout/${_id}`}>
-                        <button class="bg-transparent hover:bg-blue-400 text-blue-600 font-semibold hover:text-white  py-2 px-5 border border-blue-500 hover:border-transparent rounded-xs">
+                        <button className="bg-transparent hover:bg-blue-400 text-blue-600 font-semibold hover:text-white  py-2 px-5 border border-blue-500 hover:border-transparent rounded-xs">
                             Buy Now
                         </button>
                     </Link>
